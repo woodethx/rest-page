@@ -33,6 +33,13 @@ module.exports = {
         generator: {
           filename: "fonts/[name][hash][ext]"
         }
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "images/[name][hash][ext]"
+        }
       }
     ],
   },

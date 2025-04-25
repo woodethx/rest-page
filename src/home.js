@@ -2,6 +2,7 @@ export default function renderHome(rootSelector) {
     let buttons = document.querySelectorAll("button")
     let homeButton = document.querySelector("#home");
     let root = document.querySelector(rootSelector);
+    root.innerHTML = "";
     buttons.forEach((button) => {
         button.classList.remove("active");
     })

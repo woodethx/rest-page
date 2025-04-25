@@ -81,3 +81,29 @@ nav > button{
 .homeBlock > p{
     font-size: 1.5rem;
 }
+
+.menuCon{
+    margin: 5vh 30vw;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2vw;
+}
+.menuCon > div{
+    padding: 15px;
+    background-color: #25bcc0;
+    border: #234c91 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menuCon > div > p{
+    font-size: 1.5rem;
+}
+img{
+    height: auto;
+    width: 90%;
+}
