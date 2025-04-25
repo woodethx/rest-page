@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Mexicana";
+    src: url("./assets/fonts/MexicanaHollow.ttf") format("truetype");
+    font-weight: normal;  
+    font-style:  normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "Mexican City";
+    src: url("./assets/fonts/MexicanCityFreeTrial.woff2") format("woff2");
+    font-weight: normal;
+    font-style:  normal;
+    font-display: swap;
+  }
+
+*{
+    font-family: "Mexican City";
+    font-size: 1rem;
+}
+
+h1{
+    font-family: "Mexicana";
+    font-size: 4rem;
+    margin: 3vh;
+}
+body,
+html{
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #ffc95b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #f98f21;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 1vw;
+}
+nav > button{
+    background-color: #d71919;
+    width: 6vw;
+    height: 4vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5rem;
+    border: #d71919 2px solid;
+}
+
+.active{
+    background-color: #ffc95b;
+    border-bottom: none;
+}
+
+.homeBlock{
+    margin: 5vh 30vw;
+    background-color: #25bcc0;
+    border: #234c91 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.homeBlock > h3{
+    font-family: Mexicana;
+    font-size: 2rem;
+    margin: 0;
+}
+.homeBlock > p{
+    font-size: 1.5rem;
+}
